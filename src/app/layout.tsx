@@ -24,10 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="min-h-screen font-sans bg-white">
+          {/* Persistent Header */}
+          {require("../components/Header").default()}
+          {children}
+        </div>
       </body>
     </html>
   );
