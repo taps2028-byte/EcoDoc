@@ -41,7 +41,7 @@ export default function Home() {
         <div className="relative z-10 w-full flex flex-col items-center justify-center">
           <h1 className="text-5xl font-extrabold text-green-700 mb-4 drop-shadow-lg">Documenting A Greener Future 🌱</h1>
           <p className="text-lg text-green-700 max-w-2xl mx-auto mb-8 drop-shadow-lg">
-            "The greatest threat to our planet is the belief that someone else will save it." – Robert Swan
+            &quot;The greatest threat to our planet is the belief that someone else will save it.&quot; – Robert Swan
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@ export default function Home() {
           <span className="flex items-center gap-1"><FaUsers className="text-green-700" /> 18 jobs created</span>
           <span className="flex items-center gap-1"><FaRecycle className="text-green-700" /> Econet recycled 5 tons in 2025</span>
           <span className="flex items-center gap-1"><FaGift className="text-yellow-600" /> New partner: GreenTech</span>
-          <span className="flex items-center gap-1"><FaIndustry className="text-blue-700" /> Blog: "How to recycle at home"</span>
+          <span className="flex items-center gap-1"><FaIndustry className="text-blue-700" /> Blog: &quot;How to recycle at home&quot;</span>
           <span className="flex items-center gap-1"><FaTrash className="text-green-700" /> Join our clean-up drive this Saturday!</span>
         </div>
       </div>

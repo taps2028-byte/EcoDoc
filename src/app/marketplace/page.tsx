@@ -6,7 +6,7 @@ export default function Marketplace() {
   <div className="min-h-screen font-sans bg-white">
       {/* Faded Background Image Section */}
       <section className="w-full relative flex items-center justify-center bg-green-50" style={{height: '180px', overflow: 'hidden'}}>
-        <img src="/web%20(2).jpeg" alt="Marketplace Banner" style={{position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: '320px', height: 'auto', opacity: 0.18, zIndex: 1}} />
+  <img src="/web%20(2).jpeg" alt="Marketplace Banner" style={{position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: '320px', height: 'auto', opacity: 0.18, zIndex: 1}} />
         <div className="relative z-10 w-full flex flex-col items-center justify-center">
           <h1 className="text-4xl font-extrabold text-green-700 mb-4 drop-shadow-lg">EcoDoc Marketplace</h1>
           <p className="text-lg text-green-700 max-w-2xl mx-auto mb-8 drop-shadow-lg">Shop eco-friendly products and services. Support a greener Zimbabwe!</p>

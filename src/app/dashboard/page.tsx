@@ -46,7 +46,7 @@ export default function Dashboard() {
             </li>
             <li className="flex items-center gap-3">
               <span className="bg-yellow-400 text-green-900 px-2 py-1 rounded-full text-xs">Quiz</span>
-              <span className="text-gray-700">Completed "EcoDoc Basics" quiz</span>
+              <span className="text-gray-700">Completed &quot;EcoDoc Basics&quot; quiz</span>
               <span className="text-xs text-gray-400">5 days ago</span>
             </li>
             <li className="flex items-center gap-3">

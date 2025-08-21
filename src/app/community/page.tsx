@@ -4,7 +4,7 @@ export default function Community() {
   <div className="min-h-screen font-sans bg-white">
       {/* Faded Background Image Section */}
       <section className="w-full relative flex items-center justify-center bg-green-50" style={{height: '180px', overflow: 'hidden'}}>
-  <img src="/for%20web.jpeg" alt="Community Banner" style={{position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: '320px', height: 'auto', opacity: 0.32, zIndex: 1}} />
+    <img src="/for%20web.jpeg" alt="Community Banner" style={{position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: '320px', height: 'auto', opacity: 0.32, zIndex: 1}} />
         <div className="relative z-10 w-full flex flex-col items-center justify-center">
           <h1 className="text-4xl font-extrabold text-green-700 mb-4 drop-shadow-lg">EcoDoc Community</h1>
           <p className="text-lg text-green-700 max-w-2xl mx-auto mb-8 drop-shadow-lg">Join the EcoDoc community forum to share tips, ask questions, and connect with other eco-champions.</p>

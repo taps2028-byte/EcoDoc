@@ -4,7 +4,7 @@ export default function GreenRewards() {
   <div className="min-h-screen font-sans bg-white" style={{ backgroundImage: 'url(/for%20web.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', paddingTop: '4rem', paddingBottom: '4rem', paddingLeft: '1.5rem', paddingRight: '1.5rem' }}>
       <main className="w-full">
           <div className="flex justify-center mb-6">
-            <img src="/logo.png" alt="EcoDoc Logo" className="h-16 w-16 rounded bg-white mr-4" />
+              <img src="/logo.png" alt="EcoDoc Logo" className="h-16 w-16 rounded bg-white mr-4" />
           </div>
           <h1 className="text-4xl font-extrabold text-green-700 text-center mb-10">🏆 GreenRewards Dashboard</h1>
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">Track your points, earn eco badges, and climb the leaderboard. Redeem rewards and see your impact!</p>

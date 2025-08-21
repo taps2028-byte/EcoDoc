@@ -12,7 +12,7 @@ export default function AcademyPage() {
       <div className="w-full max-w-4xl mx-auto py-8">
         <h1 className="text-4xl font-bold text-green-800 text-center mb-2">EcoDoc Academy 🎓</h1>
         <p className="text-center text-gray-700 mb-6">
-          Learn about sustainability, waste management, and recycling with our online courses and tutorials. 🌿 "The greatest threat to our planet is the belief that someone else will save it." – Robert Swan
+          Learn about sustainability, waste management, and recycling with our online courses and tutorials. 🌿 &quot;The greatest threat to our planet is the belief that someone else will save it.&quot; &ndash; Robert Swan
         </p>
   <h2 className="text-xl font-semibold text-green-700 mb-2">Live Webinars 📺</h2>
         <div className="flex gap-4 mb-6">

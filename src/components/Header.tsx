@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="bg-green-700 text-white flex items-center px-4 py-2">
       <div className="flex items-center gap-4">
-        <Image src="/logo.png" alt="EcoDoc Logo" width={80} height={80} className="rounded bg-white" />
+  <Image src="/logo.png" alt="EcoDoc Logo" width={80} height={80} className="rounded bg-white" />
         <div>
           <div className="text-2xl font-bold">ECODOC 🌱</div>
           <div className="text-sm tracking-wide">Documenting A Greener Future</div>
