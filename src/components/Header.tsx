@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import SocialIcons from "./SocialIcons";
 
 export default function Header() {
@@ -12,17 +13,17 @@ export default function Header() {
         </div>
       </div>
       <nav className="flex-1 flex justify-center items-center gap-8 text-base font-medium">
-        <a href="/" className="hover:text-yellow-300">HOME</a>
-        <a href="/products" className="hover:text-yellow-300">PRODUCTS</a>
-        <a href="/marketplace" className="hover:text-yellow-300">STORE MARKETPLACE</a>
-        <a href="/greenrewards" className="hover:text-yellow-300">GREENREWARDS</a>
-        <a href="/academy" className="hover:text-yellow-300">SCHOOL ACADEMY</a>
-        <a href="/community" className="hover:text-yellow-300">GROUPS COMMUNITY</a>
-        <a href="/blog" className="hover:text-yellow-300">BLOG</a>
-        <a href="/partners" className="hover:text-yellow-300">PARTNERS</a>
-        <a href="/contact" className="hover:text-yellow-300">CONTACT</a>
-        <a href="/dashboard" className="hover:text-yellow-300">DASHBOARD</a>
-        <a href="/donate" className="hover:text-yellow-300 font-bold">DONATE</a>
+  <Link href="/" className="hover:text-yellow-300">HOME</Link>
+  <Link href="/products" className="hover:text-yellow-300">PRODUCTS</Link>
+  <Link href="/marketplace" className="hover:text-yellow-300">STORE MARKETPLACE</Link>
+  <Link href="/greenrewards" className="hover:text-yellow-300">GREENREWARDS</Link>
+  <Link href="/academy" className="hover:text-yellow-300">SCHOOL ACADEMY</Link>
+  <Link href="/community" className="hover:text-yellow-300">GROUPS COMMUNITY</Link>
+  <Link href="/blog" className="hover:text-yellow-300">BLOG</Link>
+  <Link href="/partners" className="hover:text-yellow-300">PARTNERS</Link>
+  <Link href="/contact" className="hover:text-yellow-300">CONTACT</Link>
+  <Link href="/dashboard" className="hover:text-yellow-300">DASHBOARD</Link>
+  <Link href="/donate" className="hover:text-yellow-300 font-bold">DONATE</Link>
       </nav>
       {/* Social Icons */}
       <div className="flex gap-3 ml-6">

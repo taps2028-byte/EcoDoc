@@ -18,7 +18,7 @@ export default function Home() {
     let frame: number;
     const step = () => {
       let done = true;
-      let next = { ...counters };
+      const next = { ...counters };
       (Object.keys(target) as Array<keyof typeof target>).forEach((key) => {
         if (next[key] < target[key]) {
           next[key] += Math.ceil((target[key] - next[key]) / 20);
